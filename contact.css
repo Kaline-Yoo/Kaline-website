@@ -214,7 +214,7 @@ footer {
 .row a{
     text-decoration:none;
     color:#373E98;
-    opacity: 60%;
+    opacity: 100%;
     transition:0.5s;
     padding: 30px;
 }
@@ -305,7 +305,7 @@ footer {
     .row a{
     text-decoration:none;
     color:#373E98;
-    opacity: 60%;
+    opacity: 100%;
     transition:0.5s;
     padding:20px;
     }
