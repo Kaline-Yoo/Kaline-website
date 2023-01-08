@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kaline Yoo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="work.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/49c4599b1e.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+<header>
+    <ul class="myname">
+        <a href="index.html">Kaline Yoo</a>
+    </ul>
+    <button class="hamburger" id="hamburger" onclick="openNav()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    
+    <ul class="nav" id="nav_list">
+        <li><a href="work.html">WORK</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="work.html">WORK</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+     </div>
+     </div>
+     
+     <script>
+         function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+                }
+
+         function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+                }
+    </script>
+</header>
+
+<section>
+  <div class="intro">
+      <span class="intro-text">More Works</span><br>    
+  </div>
+  
+  <Script>
+     const text = document.querySelector(".sec-text");
+      
+      const textLoad = () => {
+          setTimeout(() => {
+              text.textContent = "Product Designer.";
+          }, 0);
+          setTimeout(() => {
+              text.textContent = "UI/UX Designer.";
+          }, 4000);
+          setTimeout(() => {
+              text.textContent = "Sound Designer.";
+          }, 8000);
+      }
+      
+      textLoad();
+      setInterval(textLoad, 12000);
+  </Script>
+  
+  <div id="scrolls">
+      <div class="scroll-downs">
+      <div class="mouse">
+        <div class="scroller"></div>
+      </div>
+      </div>
+      <span class="scroll-text">Scroll down to see my works!</span>
+  </div>
+  
+  <div class="row">
+  <div class="column">
+    <img src="images/wedive-1.jpg" alt="wedive">
+    <h2>wedive <a href="wedive.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a> </h2>
+    <p>2022, User Research + Interface Design</p>
+    
+  </div>
+  <div class="column" >
+   <img src="images/match-1.jpg" alt="match">
+    <h2>match<a href="match.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+    <p>2022, User Interface Design</p>
+  </div>
+   <div class="column">
+   <img src="images/diveroid-1.jpg" alt="DIVEROID">
+    <h2>DIVEROID<a href="#" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+    <p>Summer 2022 Internship, UI/UX Design</p>
+  </div>
+  <div class="column" >
+    <img src="images/drio-1.jpg" alt="drio">
+    <h2>DRIO <a href="drio.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+    <p>2021, User Research + Product Design</p>
+  </div>
+  <div class="column">
+   <img src="images/vision-1.jpg" alt="vision">
+    <h2>VISION<a href="vision.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+    <p>2022, User Research + Product Design</p>
+  </div>
+  <div class="column">
+   <img src="images/table-1.jpg" alt="table">
+    <h2>Two Way Table<a href="table.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+    <p>2022, User Research + Product Design</p>
+  </div>
+  <div class="column">
+   <img src="images/coatrack-1.jpg" alt="coatrack">
+    <h2>Coat Rack<a href="coatrack.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+    <p>2020, Product Design</p>
+  </div>
+   <div class="column">
+   <img src="images/sticker-1.jpg" alt="sticker">
+    <h2>Play Food Sticker<a href="#" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+    <p>2020, User Research + Product Design + Marketing</p>
+  </div>
+  <div class="column">
+   <img src="images/sound.jpg" alt="sticker">
+    <h2>Spatial Audio<a href="#" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+    <p>2022, Sound Design</p>
+  </div>
+</div>
+ 
+  
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i><br>TOP
+    </button>
+
+    <script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+
+</section>
+
+
+<footer>
+    <div class="social-media">
+        <div class="row">
+        <a href="https://www.linkedin.com/in/kyung-seo-kaline-yoo-8a3a6b169/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/kalineyoo_1223/"target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UC12avk0bmGtfHYu4OT0xrSg" target="_blank"><i class="fa fa-youtube"></i></a>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=kyoo01@risd.edu" target="_blank"><i class="fa fa-envelope"></i></a>
+        </div>
+        <h6><i class="fa fa-copyright"></i>2022 Kaline Yoo. All Rights Reserved.</h6>
+    </div>
+</footer>
+</body>
+</html>
+

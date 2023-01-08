@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kaline Yoo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="coatrack.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/49c4599b1e.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+<header>
+    <ul class="myname">
+        <a href="index.html">Kaline Yoo</a>
+    </ul>
+    <button class="hamburger" id="hamburger" onclick="openNav()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    
+    <ul class="nav" id="nav_list">
+        <li><a href="work.html">WORK</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">HOME</a>
+        <a href="work.html">WORK</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+     </div>
+     </div>
+     
+     <script>
+         function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+                }
+
+         function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+                }
+    </script>
+</header>
+
+<section>
+  <div class="content">
+      <img src="images/coatrack-0.jpg" alt="coatrack1">
+      <img src="images/coatrack-2.jpg" alt="coatrack2">
+      <img src="images/coatrack-3.jpg" alt="coatrack3">
+      <img src="images/coatrack-4.jpg" alt="coatrack4">
+      <img src="images/coatrack-5.jpg" alt="coatrack5">
+      <img src="images/coatrack-6.jpg" alt="coatrack6">
+      <img src="images/coatrack-7.jpg" alt="coatrack7">
+      <img src="images/coatrack-8.jpg" alt="coatrack8">
+      <img src="images/coatrack-9.jpg" alt="coatrack9">
+      <img src="images/coatrack-10.jpg" alt="coatrack10">
+      <img src="images/coatrack-11.jpg" alt="coatrack11">
+
+  <div class="suggestion">
+     <a href="work.html">Back to list</a>
+  </div>
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i><br>TOP
+    </button>
+
+    <script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+</section>
+
+
+<footer>
+    <div class="social-media">
+        <div class="row">
+        <a href="https://www.linkedin.com/in/kyung-seo-kaline-yoo-8a3a6b169/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/kalineyoo_1223/"target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UC12avk0bmGtfHYu4OT0xrSg" target="_blank"><i class="fa fa-youtube"></i></a>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=kyoo01@risd.edu" target="_blank"><i class="fa fa-envelope"></i></a>
+        </div>
+        <h6><i class="fa fa-copyright"></i> Copyright by Kaline Yoo</h6>
+    </div>
+</footer>
+</body>
+</html>
+

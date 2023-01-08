@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kaline Yoo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="about.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/49c4599b1e.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+<header>
+    <ul class="myname">
+        <a href="index.html">Kaline Yoo</a>
+    </ul>
+    <button class="hamburger" id="hamburger" onclick="openNav()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    
+    <ul class="nav" id="nav_list">
+        <li><a href="work.html">WORK</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html
+        ">CONTACT</a></li>
+    </ul>
+    
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">HOME</a>
+        <a href="work.html">WORK</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+     </div>
+     </div>
+     
+     <script>
+         function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+                }
+
+         function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+                }
+    </script>
+</header>
+
+<section>
+  <div class="intro">
+        <div class="profile-mobile">
+            <img src="images/profile-2.png" alt="">
+        </div>
+        <div class="profile">
+          <img src="images/profile.png" class="profile-img" alt="">
+        </div>
+      <div id="intro-content">
+      <span class="intro-text">Hello, I'm Kaline!</span><br>
+      <span class="text first-text">I'm a </span>
+      <span class="text sec-text"> </span><br>
+      <span class="intro-text-2">I'm currently studying <br>industrial design at <a href="https://www.risd.edu/" style="text-decoration: underline;color: #373E98;">RISD</a>.</span>
+      
+      <br><br>
+      
+      <span class="values">As a designer, I want to... </span><br>
+      <span class="value_detail">design solutions for <span style="font-style: italic; color: #FEE36E"><b>people</b></span>,<br>bring people and communities <span style="font-style: italic; color: #FEE36E;"><b>together</b></span>, <br> and enhance people's experience in <span style="font-style: italic; color: #FEE36E"><b>products</b> </span>. </span> 
+      </div>
+      
+      <a href="https://drive.google.com/file/d/13hqkHRDGYd5tugBjoNN_qPAK4VSDF3Zx/view?usp=share_link" target="_blank"><button class="resume">Resume</button></a>
+      
+      <div class="intro-detail">
+          <div class="detail-content">
+              <span>About myself :)</span><br>
+              <span class="favorites">I'm from South Korea and currently based on Providence, Rhode Island. As I'm currently studying industrial design and Computation, Technology & Culture as a minor, I love designing and applying <b>digital technology to the system and products.</b> With my strong skill sets, I want to design the system and product that can enhance the people's experience in daily activities. <br> <br>These are my favorite things! <br> <span class="tags">#Talking with people #Scuba diving #Tennis #Good food #Dogs #Creating/Figuring out good playlists</span></span>
+          </div>            
+      </div>
+      <div class="resume-2">
+          <a href="https://drive.google.com/file/d/13hqkHRDGYd5tugBjoNN_qPAK4VSDF3Zx/view?usp=share_link" target="_blank"><button class="resume-mobile">Resume</button></a>
+      </div>
+  </div>
+  <Script>
+     const text = document.querySelector(".sec-text");
+      
+      const textLoad = () => {
+          setTimeout(() => {
+              text.textContent = "Product Designer.";
+          }, 0);
+          setTimeout(() => {
+              text.textContent = "UI/UX Designer.";
+          }, 4000);
+          setTimeout(() => {
+              text.textContent = "Sound Designer.";
+          }, 8000);
+      }
+      
+      textLoad();
+      setInterval(textLoad, 12000);
+  </Script>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i><br>TOP
+    </button>
+
+    <script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+    
+
+</section>
+
+
+<footer>
+    <div class="social-media">
+        <div class="row">
+        <a href="https://www.linkedin.com/in/kyung-seo-kaline-yoo-8a3a6b169/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/kalineyoo_1223/"target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UC12avk0bmGtfHYu4OT0xrSg" target="_blank"><i class="fa fa-youtube"></i></a>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=kyoo01@risd.edu" target="_blank"><i class="fa fa-envelope"></i></a>
+        </div>
+        <h6><i class="fa fa-copyright"></i> Copyright by Kaline Yoo</h6>
+    </div>
+</footer>
+</body>
+</html>
+
