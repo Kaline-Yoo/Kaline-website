@@ -349,7 +349,7 @@ section {
 
 .arrow {
     border-radius: 50%;
-    float: right;
+    float: right; 
     display: inline-block;
     font-size: 30px;
     align-items: center;
