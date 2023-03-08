@@ -328,22 +328,28 @@ section {
   
   .tab {
     cursor: pointer;
-    padding: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
     width: 50%;
-    font-size: 18px;
+    font-size: 20px;
     color: #C1c1c1;
   }
+
+   .category_name {
+    font-weight: 500;
+    width: 100%;
+   }
   
   .tab.active {
     color:#373E98 ;
     font-weight: 600;
-    border-bottom: 0.25px solid #373E98;
+    border-bottom: 0.5px solid #373E98;
   }
   
   .tab:hover {
     color: #373E98;
     font-weight: 600;
-  }
+  } 
 
   .tab::after {
     content: '';
@@ -351,12 +357,13 @@ section {
     width: 0;
     height: 3px;
     background: #373E98;
-    transition: width .4s ease-in;
+    transition: width .6s ease-in-out;
   }
   
   .tab:hover::after {
     width: 100%;
   }
+
   
   .tab-content {
     padding-top: 100px;
@@ -600,6 +607,8 @@ footer {
 
     .tab {
         cursor: pointer;
+        margin-left: 20px;
+        margin-right: 20px;
         padding: 0px;
         width: 50%;
         font-size: 12px;
