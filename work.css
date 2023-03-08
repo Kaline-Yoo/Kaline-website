@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 
-
+[data-tab-content] {
+    display: none;
+  }
+  
+  .active[data-tab-content] {
+    display: block;
+  }
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -304,6 +310,59 @@ section {
     transition: all 0.2s ease-in;
 }
 
+.category {
+    position:flex;
+    justify-content: center;
+}
+
+
+.category ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 0px;
+    width: 50%;
+    font-size: 18px;
+    color: #C1c1c1;
+  }
+  
+  .tab.active {
+    color:#373E98 ;
+    font-weight: 600;
+    border-bottom: 0.25px solid #373E98;
+  }
+  
+  .tab:hover {
+    color: #373E98;
+    font-weight: 600;
+  }
+
+  .tab::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #373E98;
+    transition: width .4s ease-in;
+  }
+  
+  .tab:hover::after {
+    width: 100%;
+  }
+  
+  .tab-content {
+    padding-top: 100px;
+  }
+  
+
 
 /* Create two equal columns that floats next to each other */
 .column {
@@ -538,6 +597,29 @@ footer {
     #scrolls {
         left:20px;
     }   
+
+    .tab {
+        cursor: pointer;
+        padding: 0px;
+        width: 50%;
+        font-size: 12px;
+        color: #C1c1c1;
+      }
+      
+      .tab.active {
+        color:#373E98 ;
+        font-weight: 600;
+      }
+      
+      .tab:hover {
+        color: #373E98;
+        font-weight: 600;
+      }
+    
+      
+      .tab-content {
+        padding-top: 50px;
+      }
     
     
     .column {
@@ -694,6 +776,30 @@ footer {
      .scroll-text{
         font-size: 20px;
     }
+
+
+    .tab {
+        cursor: pointer;
+        padding: 0px;
+        width: 50%;
+        font-size: 13px;
+        color: #C1c1c1;
+      }
+      
+      .tab.active {
+        color:#373E98 ;
+        font-weight: 600;
+      }
+      
+      .tab:hover {
+        color: #373E98;
+        font-weight: 600;
+      }
+    
+      
+      .tab-content {
+        padding-top: 50px;
+      }
     
     .column {
   float: left;
@@ -800,6 +906,29 @@ footer {
      .scroll-text{
         font-size: 20px;
     }
+
+    .tab {
+        cursor: pointer;
+        padding: 0px;
+        width: 50%;
+        font-size: 13px;
+        color: #C1c1c1;
+      }
+      
+      .tab.active {
+        color:#373E98 ;
+        font-weight: 600;
+      }
+      
+      .tab:hover {
+        color: #373E98;
+        font-weight: 600;
+      }
+    
+      
+      .tab-content {
+        padding-top: 50px;
+      }
     
     
     .column {

@@ -6,12 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="kaline, kaline-yoo, portfolio, industrial-design, RISD">
 <link rel="icon" type="images/x-icon" href="images/website-logo.svg">
+<script src="script.js" defer></script>
 <link rel="stylesheet" href="work.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/49c4599b1e.js" crossorigin="anonymous"></script>
-<script src="main.js"></script>
 </head>
 
 <body>
@@ -83,54 +83,74 @@
       <span class="scroll-text">Scroll down to see my works!</span>
   </div>
   
-  <div class="row">
-  <div class="column">
-    <img src="images/wedive-1.jpg" alt="wedive">
-    <h2>wedive <a href="wedive.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a> </h2>
-    <p>2022, User Research + Interface Design</p>
-    
-  </div>
-  <div class="column" >
-   <img src="images/match-1.jpg" alt="match">
-    <h2>match<a href="match.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-    <p>2022, User Interface Design</p>
-  </div>
-   <div class="column">
-   <img src="images/diveroid-1.jpg" alt="DIVEROID">
-    <h2>DIVEROID<a href="diveroid.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-    <p>Summer 2022 Internship, UI/UX Design</p>
-  </div>
-  <div class="column" >
-    <img src="images/drio-1.jpg" alt="drio">
-    <h2>DRIO <a href="drio.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-    <p>2021, User Research + Product Design</p>
-  </div>
-  <div class="column">
-   <img src="images/vision-1.jpg" alt="vision">
-    <h2>VISION<a href="vision.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-    <p>2022, User Research + Product Design</p>
-  </div>
-  <div class="column">
-   <img src="images/table-1.jpg" alt="table">
-    <h2>Two Way Table<a href="table.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-    <p>2022, User Research + Product Design</p>
-  </div>
-  <div class="column">
-   <img src="images/coatrack-1.jpg" alt="coatrack">
-    <h2>Coat Rack<a href="coatrack.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-    <p>2020, Product Design</p>
-  </div>
-   <div class="column">
-   <img src="images/sticker-1.jpg" alt="sticker">
-    <h2>Play Food Sticker<a href="sticker.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-    <p>2020, User Research + Product Design + Marketing</p>
-  </div>
-  <div class="column">
-   <img src="images/sound.jpg" alt="sound">
-    <h2>Spatial Audio<a href="sound.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-    <p>2022, Sound Design</p>
-  </div>
+  <div class="category" >
+  <ul class="tabs">
+    <li data-tab-target="" class="tab"></li>
+    <li data-tab-target="#UIUX" class="active tab">UI/UX</li>
+    <li data-tab-target="#product" class="tab">Product Design</li>
+    <li data-tab-target="" class="tab"></li>
+  </ul>
 </div>
+
+  <div class="tab-content">
+    <div id="UIUX" data-tab-content class="active">
+      <div class="row">
+        <div class="column">
+          <img src="images/wedive-1.jpg" alt="wedive">
+          <h2>wedive <a href="wedive.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a> </h2>
+          <p>2022, User Research + Interface Design</p>
+          
+        </div>
+        <div class="column" >
+         <img src="images/match-1.jpg" alt="match">
+          <h2>match<a href="match.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+          <p>2022, User Interface Design</p>
+        </div>
+         <div class="column">
+         <img src="images/diveroid-1.jpg" alt="DIVEROID">
+          <h2>DIVEROID<a href="diveroid.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+          <p>Summer 2022 Internship, UI/UX Design</p>
+        </div>
+        
+      </div>
+    </div>
+    <div id="product" data-tab-content>
+      <div class="row">
+        <div class="column" >
+          <img src="images/drio-1.jpg" alt="drio">
+          <h2>DRIO <a href="drio.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+          <p>2021, User Research + Product Design</p>
+        </div>
+        <div class="column">
+         <img src="images/vision-1.jpg" alt="vision">
+          <h2>VISION<a href="vision.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+          <p>2022, User Research + Product Design</p>
+        </div>
+        <div class="column">
+         <img src="images/table-1.jpg" alt="table">
+          <h2>Two Way Table<a href="table.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+          <p>2022, User Research + Product Design</p>
+        </div>
+        <div class="column">
+         <img src="images/coatrack-1.jpg" alt="coatrack">
+          <h2>Coat Rack<a href="coatrack.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+          <p>2020, Product Design</p>
+        </div>
+         <div class="column">
+         <img src="images/sticker-1.jpg" alt="sticker">
+          <h2>Play Food Sticker<a href="sticker.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+          <p>2020, User Research + Product Design + Marketing</p>
+        </div>
+        <div class="column">
+         <img src="images/sound.jpg" alt="sound">
+          <h2>Spatial Audio<a href="sound.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
+          <p>2022, Sound Design</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+ 
  
   
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i><br>TOP
