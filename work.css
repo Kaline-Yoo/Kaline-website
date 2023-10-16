@@ -31,7 +31,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #373E98;/* color of the scroll thumb */
+  background-color: #888;/* color of the scroll thumb */
   border-radius: 10px; /* roundness of the scroll thumb */
   border: 3px solid #FAFAFA; /* creates padding around scroll thumb */
 }
@@ -44,8 +44,7 @@ header {
   padding-left: 50px;
   padding-right: 50px;
   font-family: 'Poppins', sans-serif;
-  color: #373E98;
-  border-bottom: 3px solid #373E98;
+  color: #3063ff;
 }
 
 ul {
@@ -60,13 +59,13 @@ ul {
   background-color:transparent;
   display: inline-block;
   font-weight: 500;
-  color: #373E98;
+  color: #3063ff;
   text-decoration: none;
   font-size: 16px;
 }
 
 .myname > a:hover {
-  color: #FEE36E;
+  opacity: 20%;
 }
 
 .nav {
@@ -85,17 +84,17 @@ ul {
     display: inline-block;
     padding: 10px;
     text-decoration: none;
-    color: #373E98;
+    color: #3063ff;
 }
 
 .nav > li > a:hover {
-  color: #FEE368;
+  opacity: 20%;
 }
 
 .hamburger {
     background-color: transparent;
     border:0;
-    color: #373E98;
+    color: #3063ff;
     cursor: pointer;
     font-size: 18px;
     display:none;
@@ -114,7 +113,7 @@ ul {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #373E98;
+  background-color: #3063ff;
   opacity: 90%;
   overflow-x: hidden;
   transition: 0.5s;
@@ -140,7 +139,7 @@ ul {
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #FEE36E;
+  opacity:20%;
 }
 
 .overlay .closebtn {
@@ -181,18 +180,18 @@ section {
 .intro .intro-text {
     font-weight: 700;
     font-size: 50px;
-    color: #373E98;
+    color: #333333;
 }
 
 .intro .text {
     position: relative;
-    color: #FEE368;
+    color: #3063ff;
     font-weight: 700;
     font-size: 50px;
 }
 
 .intro .text.first-text {
-    color: #373E98;
+    color: #3063ff;
     
 }
 
@@ -204,7 +203,7 @@ section {
     height: 100%;
     width: 100%;
     background-color: #FAFAFA;
-    border-left: 2px solid #FEE368;
+    border-left: 2px solid #3063ff;
     animation: animate 4s steps(12) infinite;
 }
 
@@ -221,13 +220,13 @@ section {
 .intro .values {
     font-weight: 600;
     font-size: 50px;
-    color: #373E98;
+    color: #3063ff;
 }
 
 .intro .value_detail {
     font-weight: 400;
     font-size: 50px;
-    color: #373E98;
+    color: #3063ff;
 }
 
 #scrolls {
@@ -256,7 +255,7 @@ section {
   width: 3px;
   padding: 10px 15px;
   height: 35px;
-  border: 2px solid #373E98;
+  border: 2px solid #3063ff;
   border-radius: 25px;
   opacity: 0.75;
   box-sizing: content-box;
@@ -265,7 +264,7 @@ section {
   width: 3px;
   height: 10px;
   border-radius: 25%;
-  background-color: #373E98;
+  background-color: #3063ff;
   animation-name: scroll;
   animation-duration: 2.2s;
   animation-timing-function: cubic-bezier(.15,.41,.69,.94);
@@ -280,7 +279,7 @@ section {
 
 .scroll-text {
     margin : 18px;
-    color: #373E98;
+    color: #3063ff;
     opacity: 50%;
     position: absolute;
 
@@ -297,7 +296,7 @@ section {
   font-size: 15px;
   border: none;
   outline: none;
-  background-color: #373E98;
+  background-color: #3063ff;
   opacity: 50%;
   color: white;
   cursor: pointer;
@@ -341,13 +340,13 @@ section {
    }
   
   .tab.active {
-    color:#373E98 ;
+    color:#3063ff ;
     font-weight: 600;
-    border-bottom: 0.5px solid #373E98;
+    border-bottom: 0.5px solid #3063ff;
   }
   
   .tab:hover {
-    color: #373E98;
+    color: #3063ff;
     font-weight: 600;
   } 
 
@@ -356,7 +355,7 @@ section {
     display: block;
     width: 0;
     height: 3px;
-    background: #373E98;
+    background: #3063ff;
     transition: width .6s ease-in-out;
   }
   
@@ -382,14 +381,14 @@ section {
 
 
 .column h2 {
-    color:#373E98;
+    color:#333333;
     font-weight: 500;
     font-size: 30px;
     margin-bottom: 15px;
 }
 
 .column p {
-    color: #373E98;
+    color: #333333;
     font-weight: 300;
     opacity: 50%;
     font-size: 15px;
@@ -398,15 +397,15 @@ section {
 .column img {
     width:  100%;
     border-radius: 15px;
-    border: 3px solid  #373E98;
     transition: all .2s ease-in-out;
     align-items: center;
     margin-bottom: 10px;
+    border: 1px solid #AAAAAA;
     
 }
 
 .column img:hover {
-    box-shadow: 5px 5px #FEE368;
+    box-shadow: 5px 5px 5px #AAAAAA;
 }
 
 .column arrow_link {
@@ -417,21 +416,20 @@ section {
 .arrow {
     border-radius: 50%;
     float: right;
-    display: inline-block;
     font-size: 25px;
     align-items: center;
     width: 50px;
     height: 50px;
-    border: 3px solid #373E98;
+    border: 3px solid #888;
     background-color: transparent;
-    color: #373E98;
+    color: #888;
     opacity: 100%;
     margin-top:10px;
 }
 
 .arrow:hover {
     cursor: pointer;
-    background-color: #373E98;
+    background-color: #888;
     color: #FAFAFA;
     
 }
@@ -448,7 +446,6 @@ section {
 footer {
     width: 100%;
     height:auto;
-    border-top: 4px solid #373E98;
 }
 
 .social-media {
@@ -459,14 +456,14 @@ footer {
     width:100%;
     margin:1% 0%;
     padding:0.6% 0%;
-    color:#373E98;
+    color:#3063ff;
     font-size:25px;
     
 }
 
 .row a{
     text-decoration:none;
-    color:#373E98;
+    color:#3063ff;
     opacity: 100%;
     transition:0.5s;
     padding: 30px;
@@ -478,7 +475,7 @@ footer {
 
 .social-media h6 {
     font-weight: 200;
-    color:#373E98;
+    color:#3063ff;
     padding: 10px;
     font-size: 10px;
     opacity: 50%;
@@ -579,7 +576,7 @@ footer {
         width: 1px;
         padding: 6px 8px;
         height: 15px;
-        border: 1.5px solid #373E98;
+        border: 1.5px solid #3063ff;
         border-radius: 25px;
         opacity: 0.75;
         box-sizing: content-box;
@@ -589,7 +586,7 @@ footer {
         width: 1.5px;
         height: 6px;
         border-radius: 25%;
-        background-color: #373E98;
+        background-color: #3063ff;
         animation-name: scroll;
         animation-duration: 2.2s;
         animation-timing-function: cubic-bezier(.15,.41,.69,.94);
@@ -621,7 +618,7 @@ footer {
       }
       
       .tab:hover {
-        color: #373E98;
+        color: #3063ff;
         font-weight: 600;
       }
     
@@ -639,14 +636,14 @@ footer {
     }
 
     .column h2 {
-    color:#373E98;
+    color:#3063ff;
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 15px;
 }
 
 .column p {
-    color: #373E98;
+    color: #3063ff;
     font-weight: 300;
     opacity: 50%;
     font-size: 15px;
@@ -656,7 +653,7 @@ footer {
     .column img {
     width:  100%;
     border-radius: 15px;
-    border: 2px solid  #373E98;
+    border: 1px solid #AAAAAA;
     }
 
 /* Clear floats after the columns */
@@ -673,9 +670,9 @@ footer {
     align-items: center;
     width: 40px;
     height: 40px;
-    border: 2px solid #373E98;
+    border: 2px solid #888;
     background-color: transparent;
-    color: #373E98;
+    color: #888;
     opacity: 100%;
     margin-top: 10px;
 }
@@ -685,14 +682,14 @@ footer {
     width:100%;
     margin:3% 0%;
     padding:0.6% 0%;
-    color:#373E98;
+    color:#3063ff;
     font-size:20px;
     
     }
 
     .row a{
     text-decoration:none;
-    color:#373E98;
+    color:#3063ff;
     opacity: 100%;
     transition:0.5s;
     padding:20px;
@@ -796,12 +793,12 @@ footer {
       }
       
       .tab.active {
-        color:#373E98 ;
+        color:#3063ff ;
         font-weight: 600;
       }
       
       .tab:hover {
-        color: #373E98;
+        color: #3063ff;
         font-weight: 600;
       }
     
@@ -818,14 +815,14 @@ footer {
 }
 
     .column h2 {
-    color:#373E98;
+    color:#3063ff;
     font-weight: 500;
     font-size: 25px;
     margin-bottom: 15px;
 }
 
 .column p {
-    color: #373E98;
+    color: #3063ff;
     font-weight: 300;
     opacity: 50%;
     font-size: 12px;
@@ -835,7 +832,6 @@ footer {
 .column img {
     width:  100%;
     border-radius: 15px;
-    border: 2px solid  #373E98;
 }
 
 /* Clear floats after the columns */
@@ -852,9 +848,9 @@ footer {
     align-items: center;
     width: 40px;
     height: 40px;
-    border: 2px solid #373E98;
+    border: 2px solid #888;
     background-color: transparent;
-    color: #373E98;
+    color: #888;
     opacity: 100%;
 }
 
@@ -925,12 +921,12 @@ footer {
       }
       
       .tab.active {
-        color:#373E98 ;
+        color:#3063ff ;
         font-weight: 600;
       }
       
       .tab:hover {
-        color: #373E98;
+        color: #3063ff;
         font-weight: 600;
       }
     
@@ -945,14 +941,14 @@ footer {
     }
     
      .column h2 {
-    color:#373E98;
+    color:#3063ff;
     font-weight: 500;
     font-size: 25px;
     margin-bottom: 15px;
 }
 
 .column p {
-    color: #373E98;
+    color: #3063ff;
     font-weight: 300;
     opacity: 50%;
     font-size: 13px;
@@ -965,9 +961,9 @@ footer {
     align-items: center;
     width: 50px;
     height: 50px;
-    border: 3px solid #373E98;
+    border: 3px solid #3063ff;
     background-color: transparent;
-    color: #373E98;
+    color: #3063ff;
     opacity: 100%;
 }
 

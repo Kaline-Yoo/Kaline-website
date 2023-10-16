@@ -25,7 +25,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #373E98;/* color of the scroll thumb */
+  background-color: #888888;/* color of the scroll thumb */
   border-radius: 10px; /* roundness of the scroll thumb */
   border: 3px solid #FAFAFA; /* creates padding around scroll thumb */
 }
@@ -38,8 +38,7 @@ header {
   padding-left: 50px;
   padding-right: 50px;
   font-family: 'Poppins', sans-serif;
-  color: #373E98;
-  border-bottom: 3px solid #373E98;
+  color: #3063ff;
 }
 
 ul {
@@ -53,11 +52,11 @@ ul {
   background-color:transparent;
   display: inline-block;
   font-weight: 500;
-  color: #373E98;
+  color: #3063ff;
   text-decoration: none;
 }
 .myname > a:hover {
-  color: #FEE36E;
+    opacity: 20%;
 }
 
 .nav {
@@ -76,17 +75,17 @@ ul {
     display: inline-block;
     padding: 10px;
     text-decoration: none;
-    color: #373E98;
+    color: #3063ff;
 }
 
 .nav > li > a:hover {
-  color: #FEE368;
+  opacity: 20%;
 }
 
 .hamburger {
     background-color: transparent;
     border:0;
-    color: #373E98;
+    color: #3063ff;
     cursor: pointer;
     font-size: 18px;
     display:none;
@@ -105,7 +104,7 @@ ul {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #373E98;
+  background-color: #3063ff;
   opacity: 90%;
   overflow-x: hidden;
   transition: 0.5s;
@@ -131,7 +130,7 @@ ul {
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #FEE36E;
+  opacity: 20%;
 }
 
 .overlay .closebtn {
@@ -199,25 +198,25 @@ section {
 .intro .intro-text {
     font-weight: 700;
     font-size: 50px;
-    color: #373E98;
+    color: #333333;
 }
 
 .intro .intro-text-2 {
     font-weight: 700;
     font-size: 50px;
-    color: #373E98;
+    color: #333333;
     
 }
 
 .intro .text {
     position: relative;
-    color: #FEE368;
+    color: #3063ff;
     font-weight: 700;
     font-size: 50px;
 }
 
 .intro .text.first-text {
-    color: #373E98;
+    color: #333333;
     
 }
 
@@ -229,7 +228,7 @@ section {
     height: 100%;
     width: 100%;
     background-color: #FAFAFA;
-    border-left: 2px solid #FEE368;
+    border-left: 2px solid #3063ff;
     animation: animate 4s steps(12) infinite;
 }
 
@@ -246,13 +245,13 @@ section {
 .intro .values {
     font-weight: 600;
     font-size: 50px;
-    color: #373E98;
+    color: #333333;
 }
 
 .intro .value_detail {
     font-weight: 400;
     font-size: 50px;
-    color: #373E98;
+    color: #333333;
 }
 
 .resume {
@@ -261,7 +260,7 @@ section {
     width: 180px;
     height: 50px;
     border-radius:40px; 
-    background-color: #373E98;
+    background-color: #3063ff;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     border: 0px solid;
@@ -273,7 +272,7 @@ section {
 
 .resume:hover {
     transform: scale(0.97);
-    color: #FEE36E;
+
 }
 .detail-content {
     padding-bottom: 50px;
@@ -283,7 +282,7 @@ section {
 .detail-content span{
     font-weight: 600;
     font-size: 30px;
-    color: #373E98;
+    color: #333333;
 }
 
 .detail-content .favorites{
@@ -303,7 +302,6 @@ footer {
     display: inline-block;
     width: 100%;
     height:auto;
-    border-top: 4px solid #373E98;
 }
 
 .social-media {
@@ -314,14 +312,14 @@ footer {
     width:100%;
     margin:1% 0%;
     padding:0.6% 0%;
-    color:#373E98;
+    color:#3063ff;
     font-size:25px;
     
 }
 
 .row a{
     text-decoration:none;
-    color:#373E98;
+    color:#3063ff;
     opacity: 100%;
     transition:0.5s;
     padding: 30px;
@@ -333,7 +331,7 @@ footer {
 
 .social-media h6 {
     font-weight: 200;
-    color:#373E98;
+    color:#3063ff;
     padding: 10px;
     font-size: 10px;
     opacity: 50%;
@@ -348,7 +346,7 @@ footer {
   font-size: 15px;
   border: none;
   outline: none;
-  background-color: #373E98;
+  background-color: #3063ff;
   opacity: 50%;
   color: white;
   cursor: pointer;
@@ -472,7 +470,7 @@ footer {
     width: 80px;
     height: 30px;
     border-radius:40px; 
-    background-color: #373E98;
+    background-color: #3063ff;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     border: 0px solid;
@@ -484,7 +482,6 @@ footer {
 
     .resume:hover {
     transform: scale(0.97);
-    color: #FEE36E;
     }
     
     .resume-mobile {
@@ -493,7 +490,7 @@ footer {
     width: 80px;
     height: 30px;
     border-radius:40px; 
-    background-color: #373E98;
+    background-color: #3063ff;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     border: 0px solid;
@@ -505,7 +502,6 @@ footer {
 
     .resume-mobile:hover {
     transform: scale(0.97);
-    color: #FEE36E;
     }
     
     
@@ -513,14 +509,14 @@ footer {
     width:100%;
     margin:3% 0%;
     padding:0.6% 0%;
-    color:#373E98;
+    color:#3063ff;
     font-size:18px;
     
     }
 
     .row a{
     text-decoration:none;
-    color:#373E98;
+    color:#3063ff;
     opacity: 60%;
     transition:0.5s;
     padding:20px;
@@ -644,7 +640,7 @@ footer {
     width: 80px;
     height: 30px;
     border-radius:40px; 
-    background-color: #373E98;
+    background-color: #3063ff;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     border: 0px solid;
@@ -656,7 +652,6 @@ footer {
 
     .resume:hover {
     transform: scale(0.97);
-    color: #FEE36E;
     }
     
     .resume-mobile {
@@ -665,7 +660,7 @@ footer {
     width: 80px;
     height: 30px;
     border-radius:40px; 
-    background-color: #373E98;
+    background-color: #3063ff;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     border: 0px solid;
@@ -677,7 +672,6 @@ footer {
 
     .resume-mobile:hover {
     transform: scale(0.97);
-    color: #FEE36E;
     }
     
     
@@ -685,14 +679,14 @@ footer {
     width:100%;
     margin:3% 0%;
     padding:0.6% 0%;
-    color:#373E98;
+    color:#3063ff;
     font-size:18px;
     
     }
 
     .row a{
     text-decoration:none;
-    color:#373E98;
+    color:#3063ff;
     opacity: 60%;
     transition:0.5s;
     padding:20px;
