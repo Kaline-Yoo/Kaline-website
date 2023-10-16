@@ -294,14 +294,14 @@ footer {
     width:100%;
     margin:3% 0%;
     padding:0.6% 0%;
-    color:#373E98;
+    color:#3063ff;
     font-size:18px;
     
     }
 
     .row a{
     text-decoration:none;
-    color:#373E98;
+    color:#3063ff;
     opacity: 100%;
     transition:0.5s;
     padding:20px;
@@ -459,14 +459,14 @@ footer {
     }
     
      .column h2 {
-    color:#373E98;
+    color:#3063ff;
     font-weight: 500;
     font-size: 25px;
     margin-bottom: 15px;
 }
 
 .column p {
-    color: #373E98;
+    color: #3063ff;
     font-weight: 300;
     opacity: 50%;
     font-size: 13px;
@@ -544,14 +544,14 @@ footer {
     }
     
      .column h2 {
-    color:#373E98;
+    color:#3063ff;
     font-weight: 500;
     font-size: 25px;
     margin-bottom: 15px;
 }
 
 .column p {
-    color: #373E98;
+    color: #3063ff;
     font-weight: 300;
     opacity: 50%;
     font-size: 13px;
