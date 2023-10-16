@@ -579,7 +579,6 @@ footer {
     .column img {
     width:  100%;
     border-radius: 15px;
-    border: 2px solid  #3063ff;
     }
 
 /* Clear floats after the columns */
@@ -596,9 +595,9 @@ footer {
     align-items: center;
     width: 40px;
     height: 40px;
-    border: 2px solid #373E98;
+    border: 2px solid #888;
     background-color: transparent;
-    color: #373E98;
+    color: #888;
     opacity: 100%;
     margin-top: 10px;
 }
@@ -717,14 +716,14 @@ footer {
 }
 
     .column h2 {
-    color:#3063ff;
+    color:#333;
     font-weight: 500;
     font-size: 25px;
     margin-bottom: 15px;
 }
 
 .column p {
-    color: #3063ff;
+    color: #333;
     font-weight: 300;
     opacity: 50%;
     font-size: 13px;
@@ -734,7 +733,7 @@ footer {
 .column img {
     width:  100%;
     border-radius: 15px;
-    border: 2px solid  #3063ff;
+    border: 1px solid  #aaa;
 }
 
 /* Clear floats after the columns */
@@ -751,9 +750,9 @@ footer {
     align-items: center;
     width: 40px;
     height: 40px;
-    border: 2px solid #373E98;
+    border: 2px solid #888;
     background-color: transparent;
-    color: #373E98;
+    color: #888;
     opacity: 100%;
 }
 
@@ -816,14 +815,14 @@ footer {
     }
     
      .column h2 {
-    color:#3063ff;
+    color:#333;
     font-weight: 500;
     font-size: 25px;
     margin-bottom: 15px;
 }
 
 .column p {
-    color: #3063ff;
+    color: #333;
     font-weight: 300;
     opacity: 50%;
     font-size: 13px;
@@ -836,9 +835,9 @@ footer {
     align-items: center;
     width: 60px;
     height: 60px;
-    border: 3px solid #373E98;
+    border: 3px solid #888;
     background-color: transparent;
-    color: #373E98;
+    color: #888;
     opacity: 100%;
 }
 
