@@ -34,7 +34,7 @@
     </button>
     
     <ul class="nav" id="nav_list">
-        <li><a href="work.html">WORK</a></li>
+        <li><a href="index.html">WORK</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="contact.html">CONTACT</a></li>
     </ul>
@@ -42,7 +42,7 @@
     <div id="myNav" class="overlay">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
-        <a href="work.html">WORK</a>
+        <a href="index.html">WORK</a>
         <a href="about.html">ABOUT</a>
         <a href="contact.html">CONTACT</a>
      </div>
@@ -63,9 +63,10 @@
   <div class="intro">
       <span class="intro-text">Hello, I'm Kaline!</span><br>
       <span class="text first-text">I'm a </span>
-      <span class="text sec-text"> </span> <br><br>
-      <span class="values">As a designer, I want to... </span><br>
-      <span class="value_detail">design solutions for <span style="font-style: italic; color: #3063ff"><b>people</b></span>,<br>bring people and communities <span style="font-style: italic; color: #3063ff;"><b>together</b></span>, <br> and enhance people's experience in <span style="font-style: italic; color: #3063ff"><b>products</b></span>. </span>    
+      <span class="text sec-text"> </span> <br>
+      <span class="intro-text-2">based in Providence, RI.</span>
+      <!--<span class="values">As a designer, I want to... </span><br>
+      <span class="value_detail">design solutions for <span style="font-style: italic; color: #3063ff"><b>people</b></span>,<br>bring people and communities <span style="font-style: italic; color: #3063ff;"><b>together</b></span>, <br> and enhance people's experience in <span style="font-style: italic; color: #3063ff"><b>products</b></span>. </span>--> 
   </div>
   
   <Script>
@@ -73,10 +74,10 @@
       
       const textLoad = () => {
           setTimeout(() => {
-              text.textContent = "Product Designer.";
+              text.textContent = "Product Designer";
           }, 0);
           setTimeout(() => {
-              text.textContent = "3D Visualizer.";
+              text.textContent = "3D Visualizer";
           }, 4000);
       }
       
@@ -93,14 +94,11 @@
       <span class="scroll-text">Scroll down to see my selected works!</span>
   </div>
   
-  <div class="row">
-  <div class="column">
+  <!--<div class="column">
     <img src="images/wedive-1.jpg" alt="wedive">
     <h2>wedive <a href="wedive.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a> </h2>
     <p>2022, User Research + Interface Design</p>
-    
   </div>
-
   <div class="column" >
     <img src="images/match-1.jpg" alt="match">
      <h2>match<a href="match.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
@@ -125,7 +123,64 @@
     <img src="images/sticker-1.jpg" alt="sticker">
      <h2>Play Food Sticker<a href="sticker.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
      <p>2020, User Research + Product Design + Marketing</p>
-   </div>
+   </div>-->
+   <div class="card-container">
+    <div class="card">
+        <img src="images/Name.gif" alt="name_ring" class="card-image">
+        <div class="card-content">
+            <h4 class="card-title">3D Motion Graphic</h4>
+            <p class="card-date">Sep 2023</p>
+            <p class="card-description">Experiments of 3D motion graphics with Cinema4D, Blender and Octane Renderer.</p>
+            <button class="card-button"><a href="motion.html">See More</a></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/Light-1.jpg" alt="Light" class="card-image">
+        <div class="card-content">
+            <h4 class="card-title">Geometric Table Lamp</h4>
+            <p class="card-date">Sep 2023</p>
+            <p class="card-description">Designed and visualized Geometric Table Lamp.</p>
+            <button class="card-button"><a href="lamp.html">See More</a></button>
+        </div>
+    </div>
+    <div class="card">
+    <img src="images/table-1.jpg" alt="table" class="card-image">
+    <div class="card-content">
+      <h4 class="card-title">Two Way Table</h4>
+      <p class="card-date">May 2023</p>
+      <p class="card-description">Designed and build the two way wooden table through woodworking.</p>
+      <button class="card-button"><a href="table.html">See More</a></button>
+    </div>
+    </div>
+<div class="card">
+      <img src="images/drio-1.jpg" alt="drio" class="card-image">
+      <div class="card-content">
+          <h4 class="card-title">DRIO</h4>
+          <p class="card-date">May 2022</p>
+          <p class="card-description">Redesigned and visualized electric power drill.</p>
+          <button class="card-button"><a href="drio.html">See More</a></button>
+      </div>
+  </div>
+  <div class="card">
+    <img src="images/vision-1.jpg" alt="vision" class="card-image">
+    <div class="card-content">
+        <h4 class="card-title">VISION</h4>
+        <p class="card-date">May 2022</p>
+        <p class="card-description">Redesigned and visualized fire helmets for firefighters.</p>
+        <button class="card-button"><a href="vision.html">See More</a></button>
+    </div>
+</div>
+
+<div class="card">
+  <img src="images/coatrack-1.jpg" alt="coatrack" class="card-image">
+  <div class="card-content">
+      <h4 class="card-title">Metal Coat Rack</h4>
+      <p class="card-date">Feb 2020</p>
+      <p class="card-description">Designed and build the Metal Coat Rack through metal fabrication.</p>
+      <button class="card-button"><a href="coatrack.html">See More</a></button>
+  </div>
+</div>
 </div>
  
   
@@ -155,9 +210,9 @@ function topFunction() {
 
 </script>
 
-<div class="link-to-works">
+<!--<div class="link-to-works">
     <h4><a href="work.html">More Works Here!</a></h4>
-</div>
+</div>-->
 
 
 </section>
