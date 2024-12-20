@@ -1,0 +1,512 @@
+* {
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    overflow: scroll;
+    max-width: 100%;
+    background: #FAFAFA;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 15px;
+    border: 0.2px solid #E1E1E1;
+      padding: 2px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;
+      /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #888888;/* color of the scroll thumb */
+    border-radius: 10px; /* roundness of the scroll thumb */
+    border: 3px solid #FAFAFA; /* creates padding around scroll thumb */
+  }
+  
+  
+  
+  
+  /* Header */
+  header {
+    background-color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
+    color: #0E1111;
+  }
+  
+  .heading,
+  .heading * {
+    box-sizing: border-box;
+  }
+  .heading {
+    padding: 30px 35px 30px 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .logoname {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  
+  
+  .logo {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: visible;
+  }
+  .kaline-yoo {
+    color: #0E1111;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    width: 173px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+  }
+
+  .kaline-yoo:hover {
+    opacity: 50%;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 96px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    text-decoration: none;
+    color:#0E1111;
+  }
+  
+  
+  .work {
+    color: #0E1111;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 60px;
+  }
+  
+  .work:hover{
+      opacity:50%;
+  }
+  
+  .about {
+    color: #0E1111;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 66px;
+  }
+  
+  .about:hover{
+      opacity:50%;
+  }
+  
+  
+  .contact {
+    color: #0E1111;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 96px;
+  }
+  
+  .contact:hover{
+      opacity:50%;
+  }
+  
+  .hamburger {
+      background-color: transparent;
+      border:0;
+      color: #0E1111;
+      cursor: pointer;
+      font-size: 18px;
+      display:none;
+      padding-top:0px;
+  }
+  
+  .hamburger:focus {
+      outline: none;
+  }
+  
+  
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0E1111;
+    opacity: 90%;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .overlay a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    align-content: center;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    opacity: 20%;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    font-size: 30px;
+  }
+  
+  
+  /* Section */
+  section {
+      background-color: transparent;
+      animation: fadeInAnimation ease 1.5s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      height: auto;
+      font-family: 'Poppins', sans-serif;
+      padding:35px;
+  }
+  
+    @keyframes fadeInAnimation {
+              0% {
+                  opacity: 0;
+              }
+              100% {
+                  opacity: 1;
+              }
+          }
+  
+  
+  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #7644db;
+    opacity: 50%;
+    color: white;
+    cursor: pointer;
+    padding:20px;
+    border-radius: 20%;
+  }
+  
+  #myBtn:hover {
+      opacity:1;
+      transition: all 0.2s ease-in;
+  }
+  
+  
+    .toaster-detail > img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .suggestion {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+        font-family: "poppins", sans-serif;
+    }
+    
+    .suggestion a {
+        text-decoration: none;
+        color: #0E1111;
+        font-weight: 700;
+        opacity: 50%;
+    }
+
+  
+  .copyright {
+      color:#0E1111;
+      float:left;
+      width:100%;
+      opacity: 50%;
+      padding:35px;
+      margin-top:30px;
+      font-size:14px;
+      font-weight:200;
+      text-align: center;
+      position:relative;
+      display:block;
+      flex-direction: column;
+  }
+    
+
+
+  
+  
+  
+  
+  /* MQ */
+  @media screen and (min-width: 0px) and (max-width: 480px) {
+      header {
+          width:100%;
+          height: auto;
+      }
+      .heading {
+          padding:20px;
+      }
+      .logo{
+          width: 30px;
+          height:30px;
+      }
+      
+      .kaline-yoo {
+          font-size: 16px;
+      }
+      
+      .heading {
+          width: 100%;
+          height: auto;
+          padding:none;
+      }
+      
+      .menu {
+          display:none;
+      }
+      
+      .hamburger {
+          display: block;
+          float: right;
+         width: 30px;
+         height:30px;
+      }
+      
+    
+      section {
+          height:auto;
+          padding: 5px;
+      }
+
+      .toaster-detail > img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+      
+
+  }
+  
+     
+    
+  
+    
+  
+     
+  
+  
+  
+  
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+      
+      
+      
+      .heading {
+          width: 100%;
+          height: auto;
+      }
+  
+      .logoname{
+          font-size: 14px;
+      }
+  
+      
+      
+      .menu{
+          display: block;
+          text-align: center;
+          display:none;
+      }
+      
+      .hamburger {
+          display: block;
+          float: right;
+          padding-top:5px;
+      }
+      
+  
+      section {
+          height:auto;
+          padding: 15px;
+      }
+    
+      .toaster-detail > img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+  
+      
+  
+  
+  }
+     
+  
+  
+      
+   
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+      
+      .heading {
+          width: 100%;
+          height: auto;
+          padding:35px;
+      }
+  
+      .logoname{
+          font-size: 12px;
+      }
+      
+      .menu{
+          display: flex;
+          text-align: left;
+          gap:30px;
+      }
+  
+      .work {
+          font-size:14px;
+      }
+  
+      .about {
+          font-size:14px;
+      }
+      
+      .contact {
+          font-size:14px;
+      }
+      
+      
+      section {
+          height:auto;
+          padding: 35px;
+      }
+      
+      .intro {
+          border-radius: 45px;
+          border-style: solid;
+          border-color: #0e1111;
+          border-width: 1px;
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          align-items: left;
+          justify-content: center;
+          flex-shrink: 0;
+          width: 59%;
+          max-height: 300px;
+          position: relative;
+          float:left;
+        }
+  
+    
+     
+  }
+   
+  @media screen and (min-width: 1025px) {
+      
+      
+      section {
+          height:auto;
+      }
+  
+      .availability {
+          width: 28%;
+          padding-right:10px;
+      }
+  
+      .experience {
+          width: 71%;
+          margin-top:30px;
+          padding-left:50px;
+          padding-right:50px;
+      }
+  
+  
+      
+  
+  }
+      
+  
+  @media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
+      }
+    .overlay a {
+        font-size: 20px
+      }
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  
+  
+  @media screen and (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+  

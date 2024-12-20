@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="kaline, kaline-yoo, portfolio, industrial-design, RISD">
-<link rel="icon" type="images/x-icon" href="images/website-logo.svg">
+<link rel="icon" type="images/x-icon" href="images/Logo.png">
 <link rel="stylesheet" href="home.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,27 +26,32 @@
 
 <body>
 <header>
-    <ul class="myname">
-        <a href="index.html">Kaline Yoo</a>
-    </ul>
+
+
+  <div class="heading">
+    <a href="index.html">
+      <div class="logoname">
+      <img class="logo" src="images/Logo.png" />
+        <div class="kaline-yoo">Kaline Yoo</div>
+      </div>
+    </a>
     <button class="hamburger" id="hamburger" onclick="openNav()">
-        <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-bars"></i>
     </button>
-    
-    <ul class="nav" id="nav_list">
-        <li><a href="index.html">WORK</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-    </ul>
-    
     <div id="myNav" class="overlay">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
         <a href="index.html">WORK</a>
-        <a href="about.html">ABOUT</a>
-        <a href="contact.html">CONTACT</a>
+        <a href="https://drive.google.com/file/d/1V9BnW7tjjtjRVJvPls8mb3t21uamLPaQ/view?usp=drive_link" target="_blank">ABOUT</a>
+        <a href="index.html">CONTACT</a>
      </div>
      </div>
+    <div class="menu">
+     <a href="index.html"><div class="work">WORK</div></a> 
+      <a href="https://drive.google.com/file/d/1V9BnW7tjjtjRVJvPls8mb3t21uamLPaQ/view?usp=drive_link" target="_blank"><div class="about">ABOUT</div></a>
+      <a href="index.html"><div class="contact">CONTACT</div></a>
+    </div>
+  </div>
      
      <script>
          function openNav() {
@@ -60,13 +65,13 @@
 </header>
 
 <section>
-  <div class="intro">
+  <!--<div class="intro">
       <span class="intro-text">Hello, I'm Kaline!</span><br>
       <span class="text first-text">I'm a </span>
       <span class="text sec-text"> </span> <br>
       <span class="intro-text-2">based in Providence, RI.</span>
-      <!--<span class="values">As a designer, I want to... </span><br>
-      <span class="value_detail">design solutions for <span style="font-style: italic; color: #3063ff"><b>people</b></span>,<br>bring people and communities <span style="font-style: italic; color: #3063ff;"><b>together</b></span>, <br> and enhance people's experience in <span style="font-style: italic; color: #3063ff"><b>products</b></span>. </span>--> 
+      <span class="values">As a designer, I want to... </span><br>
+      <span class="value_detail">design solutions for <span style="font-style: italic; color: #3063ff"><b>people</b></span>,<br>bring people and communities <span style="font-style: italic; color: #3063ff;"><b>together</b></span>, <br> and enhance people's experience in <span style="font-style: italic; color: #3063ff"><b>products</b></span>. </span>
   </div>
   
   <Script>
@@ -85,6 +90,7 @@
       setInterval(textLoad, 8000);
   </Script>
   
+  
   <div id="scrolls">
       <div class="scroll-downs">
       <div class="mouse">
@@ -92,108 +98,137 @@
       </div>
       </div>
       <span class="scroll-text">Scroll down to see my selected works!</span>
-  </div>
-  
-  <!--<div class="column">
-    <img src="images/wedive-1.jpg" alt="wedive">
-    <h2>wedive <a href="wedive.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a> </h2>
-    <p>2022, User Research + Interface Design</p>
-  </div>
-  <div class="column" >
-    <img src="images/match-1.jpg" alt="match">
-     <h2>match<a href="match.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-     <p>2022, User Interface Design</p>
-   </div>
-   <div class="column" >
-    <img src="images/diveroid-1.jpg" alt="DIVEROID">
-    <h2>DIVEROID<a href="diveroid.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-    <p>Summer 2022 Internship, UI/UX Design</p>
-  </div>
-  <div class="column" >
-    <img src="images/drio-1.jpg" alt="drio">
-    <h2>DRIO <a href="drio.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-    <p>2021, User Research + Product Design</p>
-  </div>
-  <div class="column">
-   <img src="images/vision-1.jpg" alt="vision">
-    <h2>VISION<a href="vision.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-    <p>2022, User Research + Product Design</p>
-  </div>
-  <div class="column">
-    <img src="images/sticker-1.jpg" alt="sticker">
-     <h2>Play Food Sticker<a href="sticker.html" class="arrow_link"><button class="arrow"><i class="fa-solid fa-angle-right"></i></button></a></h2>
-     <p>2020, User Research + Product Design + Marketing</p>
-   </div>-->
-   <div class="card-container">
-    <div class="card">
-      <img src="images/vigo-10.jpg" alt="vigo" class="card-image">
-      <div class="card-content">
-          <h4 class="card-title">Vigo</h4>
-          <p class="card-date">Sep 2023</p>
-          <p class="card-description">Designed a reusable pre-workout shaker bottle for fitness women.</p>
-          <button class="card-button"><a href="vigo.html">See More</a></button>
-      </div>
-  </div>
-  <div class="card">
-    <img src="images/vision-1.jpg" alt="vision" class="card-image">
-    <div class="card-content">
-        <h4 class="card-title">VISION</h4>
-        <p class="card-date">May 2022</p>
-        <p class="card-description">Redesigned and visualized fire helmets for firefighters.</p>
-        <button class="card-button"><a href="vision.html">See More</a></button>
-    </div>
-  </div>
-  <div class="card">
-      <img src="images/drio-1.jpg" alt="drio" class="card-image">
-      <div class="card-content">
-          <h4 class="card-title">DRIO</h4>
-          <p class="card-date">May 2022</p>
-          <p class="card-description">Redesigned and visualized electric power drill.</p>
-          <button class="card-button"><a href="drio.html">See More</a></button>
-      </div>
-  </div>
-    <div class="card">
-        <img src="images/Name.gif" alt="name_ring" class="card-image">
-        <div class="card-content">
-            <h4 class="card-title">3D Motion Graphic</h4>
-            <p class="card-date">Sep 2023</p>
-            <p class="card-description">Experiments of 3D motion graphics with Cinema4D, Blender and Octane Renderer.</p>
-            <button class="card-button"><a href="motion.html">See More</a></button>
-        </div>
-    </div>
+  </div>-->
 
-    <div class="card">
-        <img src="images/Light-1.jpg" alt="Light" class="card-image">
-        <div class="card-content">
-            <h4 class="card-title">Geometric Table Lamp</h4>
-            <p class="card-date">Sep 2023</p>
-            <p class="card-description">Designed and visualized Geometric Table Lamp.</p>
-            <button class="card-button"><a href="lamp.html">See More</a></button>
+  <div class="intro">
+    <div class="intro-content">
+      <div class="intro-text">
+        <div class="hello">Hello, I’m Kaline!</div>
+        <div class="description">
+          I’m a product designer who designs innovative products that solves daily
+          problems and become part of people’s lives.
         </div>
+      </div>
+      <div class="social">
+        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=fbrudtj@gmail.com" target="_blank">
+          <div class="email">
+          <div class="let-s-talk">Let’s Talk!</div>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/kyung-seo-kaline-yoo/" target="_blank">
+        <div class="linkedin">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+      </a>
+       <a href="https://www.instagram.com/kalineyoo_art/" target="_blank">
+        <div class="instagram">
+          <i class="fa fa-instagram"></i>
+        </div>
+       </a>
+        
+      </div>
     </div>
-    <div class="card">
-    <img src="images/table-1.jpg" alt="table" class="card-image">
-    <div class="card-content">
-      <h4 class="card-title">Two Way Table</h4>
-      <p class="card-date">May 2023</p>
-      <p class="card-description">Designed and build the two way wooden table through woodworking.</p>
-      <button class="card-button"><a href="table.html">See More</a></button>
-    </div>
-    </div>
-
-<div class="card">
-  <img src="images/coatrack-1.jpg" alt="coatrack" class="card-image">
-  <div class="card-content">
-      <h4 class="card-title">Metal Coat Rack</h4>
-      <p class="card-date">Feb 2020</p>
-      <p class="card-description">Designed and build the Metal Coat Rack through metal fabrication.</p>
-      <button class="card-button"><a href="coatrack.html">See More</a></button>
   </div>
+
+  <div class="profile">
+    <img src="images/profile.png" alt="profile image of Kaline">
+  </div>
+
+  <div class="availability">
+    <div class="status">
+      <div class="circle"></div>
+      <div class="open">Open to work / projects </div>
+    </div>
+  </div>
+
+  <div class="experience">
+    <div class="experience-text">
+      I'm CURRENTLY @ <a href="https://www.linkedin.com/company/jworldnewyork/">J WORLD SPORTS</a> as a creative designer / PREVIOUSLY @ <a href="https://www.linkedin.com/company/diveroid/">DIVEROID</a>.
+    </div>
 </div>
+   
+<div class="rover-card">
+  <a href="rover.html" class="card-item">
+      <img src="images/rover.png" alt="Card Image">
+      <div class="card-content">
+      <span class="rover">RISD ROVER</span>
+      <h3>Carbon fiber seat design & fabrication</h3>
+      </div>
+      <div class="arrow">
+        <i class="fas fa-arrow-right card-icon"></i>
+    </div>
+  </a>
+</a>
 </div>
+<div class="toaster-card">
+  <a href="toaster.html" class="card-item">
+      <img src="images/toaster.jpg" alt="Card Image">
+      <div class="card-content">
+      <span class="toaster">Metallic Toaster</span>
+      <h3>Product Design + Engineering Project</h3>
+      </div>
+      <div class="arrow">
+        <i class="fas fa-arrow-right card-icon"></i>
+    </div>
+  </a>
+</a>
+</div>
+<div class="sloddy-card">
+  <a href="sloddy.html" class="card-item">
+      <img src="images/bowl.png" alt="Card Image">
+      <div class="card-content">
+      <span class="bowl">Sloddy</span>
+      <h3>Slow Feeder Dog Bowls + Bowl Stand</h3>
+      </div>
+      <div class="arrow">
+        <i class="fas fa-arrow-right card-icon"></i>
+    </div>
+  </a>
+</a>
+</div>
+<div class="vigo-card">
+  <a href="vigo.html" class="card-item">
+      <img src="images/vigo.jpg" alt="Card Image">
+      <div class="card-content">
+      <span class="vigo">Vigo</span>
+      <h3>Pre-workout Shaker for Women</h3>
+      </div>
+      <div class="arrow">
+        <i class="fas fa-arrow-right card-icon"></i>
+    </div>
+  </a>
+</a>
+</div>
+<div class="table-card">
+  <a href="table.html" class="card-item">
+      <img src="images/table-1.jpg" alt="Card Image">
+      <div class="card-content">
+      <span class="table">Two Way Table</span>
+      <h3>Transformable wooden table </h3>
+      </div>
+      <div class="arrow">
+        <i class="fas fa-arrow-right card-icon"></i>
+    </div>
+  </a>
+</a>
+</div>
+<div class="drio-card">
+  <a href="drio.html" class="card-item">
+      <img src="images/drio.png" alt="Card Image">
+      <div class="card-content">
+      <span class="drio">DRIO</span>
+      <h3>Ergonomic Electric Power Drill</h3>
+      </div>
+      <div class="arrow">
+        <i class="fas fa-arrow-right card-icon"></i>
+    </div>
+  </a>
+</a>
+</div>
+
  
   
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i><br>TOP
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i><br>
     </button>
 
     <script>
@@ -228,15 +263,42 @@ function topFunction() {
 
 
 <footer>
-    <div class="social-media">
-        <div class="row">
-        <a href="https://www.linkedin.com/in/kyung-seo-kaline-yoo-8a3a6b169/" target="_blank"><i class="fa fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/kalineyoo_1223/"target="_blank"><i class="fa fa-instagram"></i></a>
-        <a href="https://www.youtube.com/channel/UC12avk0bmGtfHYu4OT0xrSg" target="_blank"><i class="fa fa-youtube"></i></a>
-        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=kyoo01@risd.edu" target="_blank"><i class="fa fa-envelope"></i></a>
-        </div>
+   <!--<div class="social-media">
+        
         <h6><i class="fa fa-copyright"></i>2023 Kaline Yoo. All Rights Reserved.</h6>
+    </div>-->
+    <div class="footer-box">
+      <div class="footer-content">
+        <div class="footer-text">
+          <div class="work-together">Want to work or talk with me?</div>
+          <div class="reach-out">
+            Feel free to hit me up for collaboration or just to say hello!
+          </div>
+        </div>
+        <div class="social">
+          <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=fbrudtj@gmail.com" target="_blank">
+            <div class="email">
+            <div class="let-s-talk">Let’s Talk!</div>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/kyung-seo-kaline-yoo/" target="_blank">
+          <div class="linkedin">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </div>
+        </a>
+         <a href="https://www.instagram.com/kalineyoo_art/" target="_blank">
+          <div class="instagram">
+            <i class="fa fa-instagram"></i>
+          </div>
+         </a>
+          
+        </div>
+      </div>
+    </div>  
+    <div class="copyright">
+      <h6><i class="fa fa-copyright"></i> 2025 Kaline Yoo. All Rights Reserved.</h6>
     </div>
+   
 </footer>
 </body>
 </html>
