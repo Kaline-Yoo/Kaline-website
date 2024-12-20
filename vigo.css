@@ -88,11 +88,14 @@
     justify-content: flex-start;
     text-decoration: none;
   }
+<<<<<<< HEAD
 
   .kaline-yoo:hover {
     opacity: 50%;
   }
   
+=======
+>>>>>>> d0e8d6850b60bdd23da23e98759cac583208fefb
   .menu {
     display: flex;
     flex-direction: row;
